@@ -43,11 +43,6 @@ const urlShortFunction = async (req, res) => {
 
 const clickShortUrl = async (req, res) => {
     try {
-        console.log("Request params:", req.params);
-        console.log("Request query:", req.query);
-        console.log("Request URL:", req.url);
-        console.log("Request method:", req.method);
-        
         const { shortedUrl } = req.params;
         console.log("Shortened URL:", shortedUrl);
 
